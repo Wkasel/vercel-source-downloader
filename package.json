@@ -11,9 +11,15 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["vercel", "deployment", "source", "download", "backup"],
-  "author": "William Kasel",
+  "keywords": ["vercel", "deployment", "source", "download", "backup", "npx", "cli", "tool"],
+  "author": {
+    "name": "William Kasel",
+    "url": "https://github.com/Wkasel"
+  },
   "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Wkasel/vercel-source-downloader.git"

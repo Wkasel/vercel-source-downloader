@@ -3,7 +3,9 @@
 > Download source code from any Vercel deployment in seconds
 
 [![npm version](https://img.shields.io/npm/v/vercel-source-downloader.svg)](https://www.npmjs.com/package/vercel-source-downloader)
+[![npm downloads](https://img.shields.io/npm/dm/vercel-source-downloader.svg)](https://www.npmjs.com/package/vercel-source-downloader)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/Wkasel/vercel-source-downloader)](https://github.com/Wkasel/vercel-source-downloader/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Wkasel/vercel-source-downloader/pulls)
 
 ## ⚡ Quick Start
@@ -15,6 +17,8 @@ npx vercel-source-downloader your-app.vercel.app
 ```
 
 That's it! Your deployment source code will be downloaded to a local folder.
+
+📦 **[View on npm](https://www.npmjs.com/package/vercel-source-downloader)** | 🐙 **[View on GitHub](https://github.com/Wkasel/vercel-source-downloader)**
 
 ## 🎯 Why Use This?
 
