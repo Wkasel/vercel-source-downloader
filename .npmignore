@@ -1,0 +1,10 @@
+.env
+.env.sample
+.git
+.github
+node_modules
+*.log
+.DS_Store
+yarn.lock
+bun.lock
+package-lock.json

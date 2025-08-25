@@ -1,14 +1,27 @@
 {
-  "name": "get-vercel-sourcecode",
-  "version": "2.0.0",
-  "description": "",
+  "name": "vercel-source-downloader",
+  "version": "3.0.0",
+  "description": "Download source code from Vercel deployments",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "vercel-source-downloader": "./index.js"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": ["vercel", "deployment", "source", "download", "backup"],
+  "author": "William Kasel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wkasel/vercel-source-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wkasel/vercel-source-downloader/issues"
+  },
+  "homepage": "https://github.com/Wkasel/vercel-source-downloader#readme",
   "dependencies": {
     "chalk": "^5.0.0",
     "dotenv": "^16.0.0",
