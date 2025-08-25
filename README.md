@@ -30,16 +30,16 @@ This tool makes it simple.
 ## 📸 Demo
 
 ```bash
-$ npx vercel-source-downloader startwithloop.vercel.app
+$ npx vercel-source-downloader my-app.vercel.app
 
 ✔ Getting deployment id
 ✔ Loading source files tree
-✔ Downloading ./startwithloop/components/ui/button.tsx
-✔ Downloading ./startwithloop/app/page.tsx
-✔ Downloading ./startwithloop/lib/utils.ts
+✔ Downloading ./my-app/components/ui/button.tsx
+✔ Downloading ./my-app/app/page.tsx
+✔ Downloading ./my-app/lib/utils.ts
 ... 
 
-✓ Successfully downloaded source code to startwithloop
+✓ Successfully downloaded source code to my-app
 → Total files: 116
 → Total directories: 23
 ```
@@ -175,13 +175,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 MIT © [William Kasel](https://github.com/Wkasel)
 
-## 🙏 Credits & Attribution
+## 🙏 Credits & Acknowledgments
 
-This project is heavily influenced by and based on [zehfernandes/get-vercel-source-code](https://github.com/zehfernandes/get-vercel-source-code) by [Zeh Fernandes](https://github.com/zehfernandes).
+This project was inspired by [zehfernandes/get-vercel-source-code](https://github.com/zehfernandes/get-vercel-source-code). While that repository provided the initial concept and approach, this is a complete rewrite with significant enhancements.
 
-### What's New in This Version
+### 🆕 Key Improvements Over Original
 
-Building on Zeh's original concept, this version adds:
+This modern implementation includes:
 - ✨ NPX support for instant usage without installation
 - 🎨 Enhanced CLI with colored output and progress indicators  
 - 📊 Better error handling and user feedback
@@ -190,7 +190,7 @@ Building on Zeh's original concept, this version adds:
 - 🚀 Parallel downloads for improved speed
 - 👥 Team deployment support
 
-Thanks to Zeh Fernandes for the original implementation that inspired this tool!
+Special thanks to Zeh Fernandes for the original concept that inspired this project.
 
 ## 📮 Support
 
