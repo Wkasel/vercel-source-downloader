@@ -1,6 +1,6 @@
 {
   "name": "vercel-source-downloader",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Download source code from Vercel deployments",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,16 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["vercel", "deployment", "source", "download", "backup", "npx", "cli", "tool"],
+  "keywords": [
+    "vercel",
+    "deployment",
+    "source",
+    "download",
+    "backup",
+    "npx",
+    "cli",
+    "tool"
+  ],
   "author": {
     "name": "William Kasel",
     "url": "https://github.com/Wkasel"
